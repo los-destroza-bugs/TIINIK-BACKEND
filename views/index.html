@@ -1,0 +1,36 @@
+
+    <body id="page-top">
+       
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+              <h1><%= title %> </h1>
+             
+              <div class="masthead-subheading"><%= bienvenido %> </div>
+              <h5>Fecha <%= fechaActual %></h5>
+                
+                
+            </div>
+        </header>
+
+        <section class="bg-light">
+          <div class="containerll px-5">
+        
+            <form method="POST">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Dirección de Email</label>
+                <input type="email" name="email" value="email " class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">No compartir sus datos de usuario </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">contraseña</label>
+                <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn-lo-pd">Confirmar</button>
+            </form>
+        
+          </div>
+      </section>
+
+  </body>
+</html>
